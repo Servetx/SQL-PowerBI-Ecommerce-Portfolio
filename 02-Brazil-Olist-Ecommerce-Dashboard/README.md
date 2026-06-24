@@ -27,7 +27,8 @@ Bu dashboard’da KPI kartları, önceki ay karşılaştırmaları, büyüme ora
 
 ## Measures Preview
 
-[DAX Measures](./dax/measures.md)
+[DAX Measures](measures.md.txt)
+
 
 ## Proje Amacı
 
