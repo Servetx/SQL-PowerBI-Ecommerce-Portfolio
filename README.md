@@ -17,13 +17,13 @@ Bu bölümde e-ticaret verileri üzerinde yazdığım SQL sorguları yer almakta
   COUNT, SUM, AVG, MIN ve MAX gibi aggregate fonksiyonları ile temel metrik analizleri.
 
 * `Join.sql`
-  Müşteri, sipariş, ödeme ve ürün tablolarını birleştirme çalışmaları.
+  Müşteri, sipariş, ödeme ve ürün tablolarını JOIN kullanarak birleştirme çalışmaları.
 
 * `Ortak Tablo İfadesi.sql`
   CTE kullanarak sorguları daha okunabilir ve düzenli hale getirme çalışmaları.
 
 * `Alt Sorgu ve Derin Filtre Analizi.sql`
-  Subquery kullanarak daha detaylı filtreleme ve analiz çalışmaları.
+  Alt sorgu kullanarak daha detaylı filtreleme ve analiz çalışmaları.
 
 * `Pencere Fonksiyonu İfadesi.sql`
   ROW_NUMBER ve benzeri window function yapıları ile müşteri sıralama ve segmentasyon çalışmaları.
