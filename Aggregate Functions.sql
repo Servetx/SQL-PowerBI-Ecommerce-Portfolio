@@ -9,7 +9,6 @@ SELECT
     COUNT(*) AS Total_Order_Items
 FROM df_OrderItems;
 
-
 -- Sipariş kalemleri üzerinden toplam ürün satış tutarını hesaplar.
 SELECT 
     SUM(Price) AS Total_Item_Sales
