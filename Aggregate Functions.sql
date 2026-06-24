@@ -1,4 +1,4 @@
-```sql
+
 /* =============================================================
    ORDER ITEM METRICS AND CUSTOMER SPENDING ANALYSIS
    Dataset: Olist Brazil E-Commerce
