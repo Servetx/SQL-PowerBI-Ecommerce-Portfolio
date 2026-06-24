@@ -1,4 +1,4 @@
-```sql
+
 /* =============================================================
    WINDOW FUNCTIONS AND CUSTOMER SEGMENTATION PRACTICES
    Dataset: Olist Brazil E-Commerce
