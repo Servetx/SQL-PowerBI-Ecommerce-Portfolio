@@ -27,7 +27,7 @@ Bu dashboard’da KPI kartları, önceki ay karşılaştırmaları, büyüme ora
 
 ## Measures Preview
 
-![Measures Preview]02-Brazil-Olist-Ecommerce-Dashboard/dax/measures.md.txt)
+![Measures Preview](measures.md.txt)
 
 ## Proje Amacı
 
