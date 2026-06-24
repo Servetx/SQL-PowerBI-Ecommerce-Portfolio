@@ -1,18 +1,26 @@
+```sql id="ar5nx8"
 /* =============================================================
-   CTE MANAGEMENT AND TOTAL SALES (WITH PRATİĞİ)
+   CTE AND CUSTOMER TOTAL SALES ANALYSIS
    ============================================================= */
 
+-- Her müşterinin toplam harcamasını CTE içinde hesaplar.
 WITH Toplamlar AS (
-    SELECT CustomerID, SUM(Amount) AS Toplam_Miktar
+    SELECT 
+        CustomerID,
+        SUM(Amount) AS Toplam_Miktar
     FROM Orders
-    GROUP BY CustomerID
+    GROUP BY 
+        CustomerID
 )
-SELECT C.CustomerName, T.Toplam_Miktar
-FROM Customers C
-JOIN Toplamlar T ON C.CustomerID = T.CustomerID
-ORDER BY Toplam_Miktar DESC;
 
--- NEDEN BÖYLE YAZDIK?: 
--- 'WITH' (CTE) kullanarak her müşterinin toplam harcamasını geçici bir tabloda topladık. 
--- Ana sorguda ise müşteri isimleriyle bu toplamları birleştirerek, şirkete en çok ciro 
--- kazandıran müşterileri büyükten küçüğe listelemek için kullandık.
+-- CTE sonucunu müşteri bilgileriyle birleştirir.
+-- Müşteriler toplam harcama tutarına göre büyükten küçüğe sıralandı.
+SELECT 
+    C.CustomerName,
+    T.Toplam_Miktar
+FROM Customers AS C
+JOIN Toplamlar AS T
+    ON C.CustomerID = T.CustomerID
+ORDER BY 
+    T.Toplam_Miktar DESC;
+```
