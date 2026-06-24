@@ -2,7 +2,7 @@
 
 Bu repo, e-ticaret verileri üzerinde yaptığım SQL veri analizi çalışmaları ve Power BI dashboard projelerini içerir.
 
-Çalışmalarda temel veri sorgulama, aggregate analizler, JOIN işlemleri, CTE, subquery, window functions ve Power BI dashboard tasarımı uygulanmıştır.
+Çalışmalarda temel SQL sorguları, aggregate analizler, JOIN işlemleri, CTE, subquery ve window functions pratikleri yapılmıştır. Power BI tarafında ise e-ticaret verileri üzerinden KPI kartları, filtreler ve dashboard görselleri oluşturulmuştur.
 
 ## Repo İçeriği
 
