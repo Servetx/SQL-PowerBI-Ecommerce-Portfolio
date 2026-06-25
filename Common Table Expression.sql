@@ -17,8 +17,8 @@ WITH Toplamlar AS (
 SELECT 
     C.CustomerName,
     T.Toplam_Miktar
-FROM Customers AS C
-JOIN Toplamlar AS T
+FROM Customers C
+JOIN Toplamlar T
     ON C.CustomerID = T.CustomerID
 ORDER BY 
     T.Toplam_Miktar DESC;
