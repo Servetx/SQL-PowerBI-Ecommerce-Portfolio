@@ -25,12 +25,7 @@ Kapsam:
 
 ## Repo Icerigi
 
-### 1. Is Odakli SQL Projesi
-
-[Ecommerce_Business_SQL_Analysis](Ecommerce_Business_SQL_Analysis)  
-Aggregate, JOIN, CTE, window functions ve data quality kontrollerini iceren ana SQL portfoy projesi.
-
-### 2. SQL Pratik Sorgulari
+### SQL Pratik Sorgulari
 
 [SQL_Practice_Queries](SQL_Practice_Queries)  
 Temel SQL, toplama fonksiyonlari, JOIN, CTE, alt sorgu ve pencere fonksiyon pratiklerini iceren calisma dosyalari.
