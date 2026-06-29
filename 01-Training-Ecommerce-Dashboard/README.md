@@ -1,48 +1,51 @@
 # Training E-Commerce Dashboard
 
-Bu proje, Power BI eğitiminde öğrendiğim dashboard yapısını videoya bakmadan tekrar kurarak geliştirdiğim çalışmadır.
+Bu proje, Power BI egitiminde ogrendigim dashboard yapisini videoya bakmadan tekrar kurarak gelistirdigim calismadir.
 
-Amaç, öğrendiğim KPI kartlarını, slicer kullanımını, DAX ölçülerini, grafik düzenini ve dashboard tasarım mantığını kendi başıma tekrar uygulayabilmekti.
+Amac, KPI kartlarini, slicer kullanimini, DAX olculerini, grafik duzenini ve dashboard tasarim mantigini kendi basima tekrar uygulayabilmekti.
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png.PNG)
+Dashboard dosyasi PDF olarak goruntulenebilir:
 
-## Dashboard İçeriği
+[Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
 
-* Customers
-* Orders
-* Sales
-* AOV
-* Sales by Month
-* Sales by Payment Method
-* Product Table
-* Sales by Country
-* Month Slicer
-* Category Slicer
+## Dashboard Icerigi
+
+- Customers
+- Orders
+- Sales
+- AOV
+- Sales by Month
+- Sales by Payment Method
+- Product Table
+- Sales by Country
+- Month Slicer
+- Category Slicer
 
 ## Uygulanan Konular
-## Power BI Dashboardlarda Kullanılan Konular
 
-* KPI Kartları
-* DAX Ölçüleri
-* Önceki Ay Karşılaştırması
-* Büyüme Oranı Ölçüleri
-* Koşullu Biçimlendirme
-* Ay Dilimleyici
-* Kategori Dilimleyici / Filtresi
-* Donut Grafiği
-* Sütun Grafiği
-* Harita Görseli
-* Dinamik Ay Vurgulama
-* AOV Hesaplama
-* Ödeme Türü Analizi
-* Aylık Satış / Ödeme Analizi
+- KPI kartlari
+- DAX olculeri
+- Onceki ay karsilastirmasi
+- Buyume orani olculeri
+- Kosullu bicimlendirme
+- Ay dilimleyici
+- Kategori dilimleyici / filtresi
+- Donut grafigi
+- Sutun grafigi
+- Harita gorseli
+- Dinamik ay vurgulama
+- AOV hesaplama
+- Odeme turu analizi
+- Aylik satis / odeme analizi
 
-## Kullanılan DAX Ölçüleri
+## Kullanilan DAX Olculeri
 
-Dax Ölçüleri dax Adlı Klasörde
+Bu dashboard'da kullanilan DAX olculeri ayri dosyada listelenmistir:
 
-## Proje Amacı
+[DAX olculerini goruntule](dax/DAX_Measures.md)
 
-Bu çalışmanın amacı, eğitimde öğrenilen Power BI dashboard yapısını videoya bakmadan tekrar kurarak pratik becerimi geliştirmektir.
+## Proje Amaci
+
+Bu calismanin amaci, egitimde ogrenilen Power BI dashboard yapisini videoya bakmadan tekrar kurarak pratik becerimi gelistirmektir.
