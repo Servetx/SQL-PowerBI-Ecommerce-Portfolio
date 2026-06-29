@@ -1,8 +1,8 @@
-````md
 # DAX Measures
 
-Bu dosya, Training E-Commerce Dashboard projesinde kullanılan DAX ölçülerini içerir.
+Bu dosya, Training E-Commerce Dashboard projesinde kullanilan DAX olculerini icerir.
 
+## Core KPI Measures
 
 ```dax
 Customers =
@@ -44,14 +44,11 @@ IF(
 )
 ```
 
-Aynı Previous Month, Growth ve Color mantığı Customers, Orders ve Payment Value KPI kartları için de uygulanmıştır.
-
-
-
+Ayni Previous Month, Growth ve Color mantigi Customers, Orders ve Payment Value KPI kartlari icin de uygulanmistir.
 
 ## Country Sales Percentage
 
-Ülke bazlı satış oranını hesaplamak için kullanılmıştır.
+Ulke bazli satis oranini hesaplamak icin kullanilmistir.
 
 ```dax
 Country Sales % =
@@ -62,11 +59,11 @@ VAR _allvalue =
     )
 RETURN
     DIVIDE([Sales], _allvalue)
-````
+```
 
 ## Continent Rounded Bar Chart
 
-Kıta bazlı satış oranını SVG bar chart olarak göstermek için kullanılmıştır.
+Kita bazli satis oranini SVG bar chart olarak gostermek icin kullanilmistir.
 
 ```dax
 Continent Rounded Bar Chart =
@@ -88,7 +85,7 @@ RETURN
 
 ## Highlighted Month Details
 
-Seçili ayların toplam satış içindeki oranını dinamik metin olarak göstermek için kullanılmıştır.
+Secili aylarin toplam satis icindeki oranini dinamik metin olarak gostermek icin kullanilmistir.
 
 ```dax
 Highlighted Month Details =
@@ -129,7 +126,7 @@ RETURN
 
 ## Month Highlight Color
 
-Seçilen ayları grafikte farklı renkle göstermek için kullanılmıştır.
+Secilen aylari grafikte farkli renkle gostermek icin kullanilmistir.
 
 ```dax
 Month Highlight Color =
@@ -150,7 +147,7 @@ RETURN
 
 ## Month Switch
 
-Ay numarasını kısa ay adına çevirmek için kullanılmıştır.
+Ay numarasini kisa ay adina cevirmek icin kullanilmistir.
 
 ```dax
 Month Switch =
@@ -173,7 +170,7 @@ SWITCH(
 
 ## Previous Month
 
-KPI kartlarında önceki ay bilgisini dinamik olarak göstermek için kullanılmıştır.
+KPI kartlarinda onceki ay bilgisini dinamik olarak gostermek icin kullanilmistir.
 
 ```dax
 Previous Month =
@@ -185,7 +182,4 @@ VAR myPrevMonth =
 
 RETURN
     "vs. " & myPrevMonth & ":"
-```
-
-```
 ```
