@@ -27,31 +27,31 @@ Kapsam:
 
 ### 1. Is Odakli SQL Projesi
 
-* `Ecommerce_Business_SQL_Analysis`  
-  Aggregate, JOIN, CTE, window functions ve data quality kontrollerini iceren ana SQL portfoy projesi.
+[Ecommerce_Business_SQL_Analysis](Ecommerce_Business_SQL_Analysis)  
+Aggregate, JOIN, CTE, window functions ve data quality kontrollerini iceren ana SQL portfoy projesi.
 
 ### 2. SQL Pratik Sorgulari
 
-* `SQL_Practice_Queries`  
-  Temel SQL, aggregate functions, JOIN, CTE, subquery ve window function pratiklerini iceren calisma dosyalari.
+[SQL_Practice_Queries](SQL_Practice_Queries)  
+Temel SQL, toplama fonksiyonlari, JOIN, CTE, alt sorgu ve pencere fonksiyon pratiklerini iceren calisma dosyalari.
 
 ### 3. Power BI Dashboard Calismalari
 
-* `01-Training-Ecommerce-Dashboard`  
-  Power BI egitiminde ogrendigim dashboard yapisini videoya bakmadan tekrar kurdugum calisma.
+[01-Training-Ecommerce-Dashboard](01-Training-Ecommerce-Dashboard)  
+Power BI egitiminde ogrendigim dashboard yapisini videoya bakmadan tekrar kurdugum calisma.
 
-* `02-Brazil-Olist-Ecommerce-Dashboard`  
-  Olist Brazil E-Commerce veri seti uzerinde gelistirdigim Power BI dashboard calismasi.
+[02-Brazil-Olist-Ecommerce-Dashboard](02-Brazil-Olist-Ecommerce-Dashboard)  
+Olist Brazil E-Commerce veri seti uzerinde gelistirdigim Power BI dashboard calismasi.
 
 ## Kullanilan Teknolojiler
 
-* SQL Server
-* Power BI
-* DAX
-* Data Model
-* KPI Cards
-* Slicers
-* Dashboard Design
+- SQL Server
+- Power BI
+- DAX
+- Data Model
+- KPI Cards
+- Slicers
+- Dashboard Design
 
 ## Amac
 
