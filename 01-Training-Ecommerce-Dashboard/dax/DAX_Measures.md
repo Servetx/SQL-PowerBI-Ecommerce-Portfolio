@@ -4,6 +4,9 @@ Bu dosya, Training E-Commerce Dashboard projesinde kullanilan DAX olculerini ice
 
 ## Core KPI Measures
 
+Dashboard'daki temel KPI kartlarini hesaplamak icin kullanilmistir.  
+Customers musteri sayisini, Orders siparis sayisini, Sales toplam Satış tutarini, AOV ise ortalama siparis degerini gosterir.
+
 ```dax
 Customers =
 DISTINCTCOUNT(facteCommerce[Customer ID])
@@ -23,6 +26,7 @@ DIVIDE(
 
 ## Previous Month and Growth Measures
 
+KPI kartlarinda onceki ay degeri, buyume orani ve pozitif/negatif renk bilgisini gostermek icin kullanilmistir.
 ```dax
 AOV PM =
 CALCULATE(
@@ -167,6 +171,28 @@ SWITCH(
     12, "Dec"
 )
 ```
+
+## Calendar Table
+
+Tarih bazli analizler, onceki ay karsilastirmalari ve ay filtreleri icin kullanilan takvim tablosudur.
+
+```dax
+Calendar =
+ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "mmm", "en-US"),
+    "Monthnum", MONTH([Date]),
+    "Day", DAY([Date]),
+    "Weekday", FORMAT([Date], "ddd"),
+    "Weeknum", WEEKDAY([Date]),
+    "Qtr", "Q- " & FORMAT([Date], "Q"),
+    "Weektype", IF(
+        WEEKDAY([Date]) = 1 || WEEKDAY([Date]) = 7,
+        "Weekend",
+        "Weekday"
+    )
+)
 
 ## Previous Month
 
