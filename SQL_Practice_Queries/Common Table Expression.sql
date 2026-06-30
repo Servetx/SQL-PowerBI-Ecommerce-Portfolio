@@ -3,7 +3,7 @@
    ============================================================= */
  --CTE icinde musteriler ve siparisler birlestirilir
 -- Her musteri icin toplam harcama tutari hesaplanir.
--WITH Toplamlar AS (
+WITH Toplamlar AS (
     SELECT 
         C.CustomerID,
         C.CustomerName,
