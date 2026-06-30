@@ -11,7 +11,6 @@ Dashboard dosyasi PDF olarak goruntulenebilir, Power BI proje dosyasi ise PBIX f
 - [Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
 - [Power BI PBIX dosyasini indir](dashboard.pbix)
 
-[Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
 
 ## Dashboard Icerigi
 
