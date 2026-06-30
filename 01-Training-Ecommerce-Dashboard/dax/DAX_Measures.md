@@ -171,7 +171,6 @@ SWITCH(
     12, "Dec"
 )
 ```
-
 ## Calendar Table
 
 Tarih bazli analizler, onceki ay karsilastirmalari ve ay filtreleri icin kullanilan takvim tablosudur.
@@ -193,7 +192,7 @@ ADDCOLUMNS(
         "Weekday"
     )
 )
-
+```
 
 ## Previous Month
 
