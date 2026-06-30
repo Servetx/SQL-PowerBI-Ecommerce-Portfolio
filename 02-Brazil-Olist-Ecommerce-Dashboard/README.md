@@ -6,9 +6,10 @@ Dashboard'da musteri, siparis, odeme tutari, ortalama siparis degeri, odeme tipi
 
 ## Dashboard Preview
 
-Dashboard dosyasi PDF olarak goruntulenebilir:
+Dashboard dosyasi PDF olarak goruntulenebilir, Power BI proje dosyasi ise PBIX formatinda indirilebilir.
 
-[Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
+- [Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
+- [Power BI PBIX dosyasini indir](dashboard.pbix.pbit)
 
 ## Dashboard Icerigi
 
