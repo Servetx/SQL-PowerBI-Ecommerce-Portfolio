@@ -1,64 +1,46 @@
-# SQL, Power BI ve Veri Analizi Portföyü
+[New Text Document.txt](https://github.com/user-attachments/files/30825186/New.Text.Document.txt)
+# SQL & Power BI E-Commerce Data Analysis Portfolio
 
-Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **SQL veri analizi çalışmalarını** ve **Power BI dashboard projelerini** içerir.
+Bu repo, e-ticaret verileri uzerinde hazirladigim SQL veri analizi calismalari ve Power BI dashboard projelerini icerir.
 
-Çalışmaların amacı; iş sorularını SQL sorgularına dönüştürmek, veri kalitesi kontrolleri yapmak, temel performans göstergelerini hesaplamak ve sonuçları anlaşılır raporlara dönüştürmektir.
+Amac; SQL ile is sorularini analiz edebilmek, veri kalite kontrolleri yapabilmek ve Power BI ile bu analizleri anlasilir dashboardlara donusturebildigimi gostermektir.
 
-## Portföyü İncelemeye Buradan Başlayın
+## One Cikan Proje
 
-| Proje | İçerik | Bağlantı |
-| --- | --- | --- |
-| SQL Server İş Operasyonları Portföyü | İş senaryoları, DML, transaction, stored procedure, view, index ve ERP/B2B mutabakatı | [Projeyi incele](SQL_Server_Business_Operations_Portfolio) |
-| E-Ticaret İşletmesi SQL Analizi | İş soruları, JOIN, CTE, pencere fonksiyonları ve veri kalite kontrolleri | [Projeyi incele](Ecommerce_Business_SQL_Analysis) |
-| SQL Uygulama Sorguları | Temel SQL, aggregate, JOIN, subquery, CTE ve window function pratikleri | [Çalışmaları incele](SQL_Practice_Queries) |
-| Training E-Commerce Dashboard | Eğitim sonrasında bağımsız olarak yeniden kurulan Power BI dashboard çalışması | [Dashboard projesini incele](01-Training-Ecommerce-Dashboard) |
-| Brazil Olist E-Commerce Dashboard | Olist e-ticaret verileriyle hazırlanan iş odaklı Power BI raporu | [Dashboard projesini incele](02-Brazil-Olist-Ecommerce-Dashboard) |
+### Ecommerce Business SQL Analysis
 
-## Öne Çıkan SQL Projesi
+Bu klasor, e-ticaret veri seti uzerinde hazirlanmis is odakli SQL analiz projesidir.
 
-### [SQL Server İş Operasyonları Portföyü](SQL_Server_Business_Operations_Portfolio)
+Bu projede sadece temel SQL sorgulari degil; musteri, siparis, urun, odeme, satici, gelir ve veri kalite kontrolleri gibi gercekci is sorulari SQL ile cevaplanmistir.
 
-Bu proje, kurgusal bir B2B e-ticaret işletmesinin müşteri, ürün, sipariş, ödeme ve stok verileri üzerinde hazırlanmış kapsamlı bir SQL Server çalışmasıdır.
+Kapsam:
 
-Projede yer alan başlıca çalışmalar:
+- Aggregate analizler: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+- JOIN analizleri: musteri, siparis, urun ve odeme tablolarini birlestirme
+- CTE analizleri: `WITH` ile ara sonuc tablolari olusturma
+- Window functions: `ROW_NUMBER` ile siralama analizleri
+- Data quality checks: tekrar eden ID, bos kategori, negatif tutar ve eslesmeyen kayit kontrolleri
+- Veri tipi hazirligi: sayisal analiz icin `product_weight_g` kolonunun temizlenmesi
 
-- Temel sorgulama, filtreleme, tarih ve metin fonksiyonları
-- JOIN, aggregate fonksiyonlar ve veri kalite kontrolleri
-- Subquery, CTE, derived table ve window functions
-- INSERT, UPDATE, DELETE ve güvenli transaction işlemleri
-- Parametreli stored procedure örnekleri
-- Geçici tablo, VIEW ve INDEX kullanımı
-- Cursor ve set-based yaklaşım karşılaştırması
-- ERP ile B2B stok ve fiyat kayıtlarının mutabakatı
+## Repo Icerigi
 
-[SQL Server proje açıklamasını ve dosyalarını görüntüle](SQL_Server_Business_Operations_Portfolio)
+| Klasor | Aciklama |
+| --- | --- |
+| [Ecommerce_Business_SQL_Analysis](Ecommerce_Business_SQL_Analysis) | Is odakli SQL portfoy projesi |
+| [SQL_Practice_Queries](SQL_Practice_Queries) | SQL pratik sorgulari |
+| [01-Training-Ecommerce-Dashboard](01-Training-Ecommerce-Dashboard) | Power BI egitim dashboard calismasi |
+| [02-Brazil-Olist-Ecommerce-Dashboard](02-Brazil-Olist-Ecommerce-Dashboard) | Brazil Olist Power BI dashboard calismasi |
 
-## E-Ticaret SQL Analizi
+## Kullanilan Teknolojiler
 
-### [E-Ticaret İşletmesi SQL Analizi](Ecommerce_Business_SQL_Analysis)
+- SQL Server
+- Power BI
+- DAX
+- Data Model
+- KPI Cards
+- Slicers
+- Dashboard Design
 
-Bu projede müşteri, sipariş, ürün, satıcı ve ödeme tabloları kullanılarak gerçekçi iş sorularına SQL ile cevap verilmiştir.
+## Amac
 
-Öne çıkan analizler:
-
-- Müşteri ve sipariş sayıları
-- Şehir ve eyalet bazında satış geliri
-- Kategori ve satıcı performansı
-- Ödeme türüne göre toplam ödeme tutarı
-- Müşteri harcama sıralamaları
-- Tekrarlanan kimlik, boş kategori ve hatalı tutar kontrolleri
-- Sayısal analiz öncesinde veri tipi temizliği
-
-Kullanılan başlıca SQL yapıları:
-
-`SELECT` · `WHERE` · `GROUP BY` · `HAVING` · `CASE WHEN` · `JOIN` · `CTE` · `ROW_NUMBER` · `COUNT` · `SUM` · `AVG`
-
-[SQL proje açıklamasını ve dosyalarını görüntüle](Ecommerce_Business_SQL_Analysis)
-
-## Power BI Dashboard Projeleri
-
-### [Training E-Commerce Dashboard](01-Training-Ecommerce-Dashboard)
-
-Eğitimde öğrenilen dashboard yapısının videoya bakmadan yeniden kurulduğu pratik çalışmasıdır.
-
-- KPI kartları: Customers, Orders, Sales ve AOV
+Bu portfoyun amaci, SQL ile veri analizi yapabildigimi, veri kalite kontrolleri kurabildigimi ve Power BI ile bu analizleri anlasilir dashboardlara donusturebildigimi gostermektir.
