@@ -95,15 +95,14 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 ## Depo Yapısı
 
 ```text
-├── 01-Training-Ecommerce-Dashboard/           # Power BI eğitim dashboardu
-├── 02-Brazil-Olist-Ecommerce-Dashboard/      # Olist Power BI dashboardu
-SQL-PowerBI-Ecommerce-Portfolio/
-├── SQL_Server_Business_Operations_Portfolio/ # Kapsamlı SQL Server iş senaryoları
-├── Ecommerce_Business_SQL_Analysis/          # İş odaklı e-ticaret SQL projesi
-├── SQL_Practice_Queries/                      # SQL öğrenme ve pratik dosyaları
-
-└── README.md                                  # Ana portföy yönlendirmesi
-```
+Data-Analysis-and-Reporting-Portfolio/
+├── 01-Training-Ecommerce-Dashboard/               # Power BI eğitim dashboardu
+├── 02-Brazil-Olist-Ecommerce-Dashboard/           # Olist Power BI dashboardu
+├── SQL-PowerBI-Ecommerce-Portfolio/
+│   ├── SQL_Server_Business_Operations_Portfolio/  # Kapsamlı SQL Server iş senaryoları
+│   ├── Ecommerce_Business_SQL_Analysis/            # İş odaklı e-ticaret SQL projesi
+│   └── SQL_Practice_Queries/                       # SQL öğrenme ve pratik dosyaları
+└── README.md                                       # Ana portföy yönlendirmesi
 
 ## Proje Notu
 
