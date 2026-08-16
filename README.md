@@ -108,6 +108,3 @@ Data-Analysis-and-Reporting-Portfolio/
 
 Bu çalışmalar gerçek şirket deneyimi iddiası taşımaz. Öğrenilen SQL ve Power BI konularını iş senaryolarına uygulamak amacıyla hazırlanmış portföy projeleridir.
 
-## İletişim
-
-- [GitHub profili](https://github.com/Servetx)
